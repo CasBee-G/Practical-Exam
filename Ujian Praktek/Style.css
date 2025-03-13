@@ -1,0 +1,121 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.header {
+    background-color: #927056; 
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+.container {
+    display: flex;
+}
+
+.content {
+    flex: 3; 
+    padding: 20px;
+    background-color: #ffffff;
+}
+
+.sidebar {
+   
+    
+    background-color: #1ca4f3;
+    color: white;
+}
+
+
+
+.navbar a {
+    color: white;
+    padding: 14px 20px;
+    text-decoration: none;
+    text-align: center;
+    display: inline-block;
+    transition: background-color 0.3s;
+}
+.navbar a:hover {
+    background-color: #0fdfc3; 
+    text-decoration: underline;
+}
+
+.footer {
+    background-color: #9b59b6; 
+    color: white;
+    text-align: center;
+    padding: 10px;
+    clear: both;
+        position: fixed;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+}
+
+.Me{
+    width: 35%;
+    height: 50%; 
+    border: 2px solid #3498db;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.header, .navbar, .footer {
+   
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap; /* Agar navbar responsif */
+}
+
+.navbar a {
+    color: white;
+    padding: 14px 20px;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap; 
+}
+
+.content {
+    flex: 3; 
+    
+}
+
+.sidebar {
+    flex: 1; 
+    
+    
+}
+
+.footer {
+    text-align: center;
+    padding: 10px;
+}
+
+/* Media Queries untuk Responsivitas */
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column; /* Mengubah menjadi kolom di layar kecil */
+    }
+
+   
+       
+    
+
+    .navbar {
+        flex-direction: column; /* Menjadikan navbar vertikal di layar kecil */
+    }
+}
